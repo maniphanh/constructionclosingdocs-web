@@ -1,0 +1,68 @@
+<div class="coming-soon-page">
+    <mat-toolbar color="primary" class="coming-soon-nav" style="padding-top: 10px; padding-bottom: 10px;" role="banner">
+        <a class="app-title clickable" routerLink="/" aria-label="Construction Closing Docs home">
+            <span>Construction Closing Docs</span>
+        </a>
+        <div class="spacer" aria-hidden="true"></div>
+
+        <nav class="nav-links" role="navigation" aria-label="Main navigation">
+            <a mat-button (click)="scrollToContact()" aria-label="Request a demo">
+                <mat-icon aria-hidden="true">video_call</mat-icon>
+                Request a Demo
+            </a>
+        </nav>
+    </mat-toolbar>
+
+    <section class="hero-section" aria-label="Coming soon hero section">
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="badge" aria-label="Status">Coming Soon</div>
+                <h1 class="hero-title">Construction Closing Docs</h1>
+                <p class="hero-subtitle">
+                    A modern platform for construction payment documentation — launching soon.
+                </p>
+
+                <div class="hero-buttons">
+                    <button mat-raised-button class="cta-button primary-cta" (click)="scrollToContact()"
+                        aria-label="Request a demo">
+                        <mat-icon aria-hidden="true">video_call</mat-icon>
+                        Request a Demo
+                    </button>
+                    <button mat-stroked-button class="cta-button secondary-cta" (click)="scrollToInfo()"
+                        aria-label="Learn more">
+                        <mat-icon aria-hidden="true">info</mat-icon>
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+        <div class="container">
+            <h2 class="section-title" id="contact-heading">Get notified</h2>
+            <p class="section-subtitle">Want early access or a walkthrough? Reach out and we'll follow up.</p>
+
+            <mat-card class="contact-card">
+                <div class="contact-row">
+                    <div class="contact-item">
+                        <mat-icon aria-hidden="true">email</mat-icon>
+                        <div>
+                            <div class="label">Email</div>
+                            <a class="value"
+                                href="mailto:service@constructionclosingdocs.com">service&#64;constructionclosingdocs.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <mat-icon aria-hidden="true">schedule</mat-icon>
+                        <div>
+                            <div class="label">Hours</div>
+                            <div class="value">Mon–Fri, 9 AM – 5 PM CST</div>
+                        </div>
+                    </div>
+                </div>
+            </mat-card>
+        </div>
+    </section>
+</div>
